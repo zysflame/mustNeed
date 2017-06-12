@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Car' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+pod 'Masonry'     # 自动布局
+pod 'SDWebImage'  # 图片加载
+pod 'SVProgressHUD'   # 提示框
+
+pod 'MJExtension'  # 数据解析
+pod 'MJRefresh'   # 下拉刷新框架
+
+pod 'AFNetworking' #网络请求
+pod 'BaiduMapKit'  # 百度地图
+
+pod 'WebViewJavascriptBridge' # OC 与网页的交互
+
+pod'SDCycleScrollView' # 自动轮播框架
+pod 'TZImagePickerController'   # 拍照第三方
+
+pod ‘PYSearch’  # 搜索显示历史记录
+
+  # Pods for Car
+
+end
